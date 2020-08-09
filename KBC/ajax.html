@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<button type="button" onclick="print()">Change Content</button>
+<p id="demo"></p>
+
+<script>
+
+
+// function print(){
+//     for(var i = 0; i<10;i++){
+//         setInterval(print, 3000);
+//         console.log(document.getElementById("demo").innerHTML = i + "</br>");
+//     }
+// }
+
+// var i = 0;
+// while(i<10){
+//     console.log(document.getElementById("demo").innerHTML = i + "</br>");
+//    i++;
+// }
+// function prin(){
+//     i++;
+// }
+
+
+
+// console.log(setInterval(print, 3000));
+
+var num = 0;
+
+function prin(){
+    num++
+    console.log(document.getElementById("demo").innerHTML = num);
+}
+
+setInterval(prin,9000)
+
+
+</script>
+
+</body>
+</html>
